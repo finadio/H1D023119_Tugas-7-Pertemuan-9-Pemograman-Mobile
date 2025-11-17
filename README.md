@@ -20,7 +20,7 @@
 ## Screenshot Aplikasi
 
 ### Demo Aplikasi
-![Demo Aplikasi](screenshots/demotugas7.gif)
+![Demo Aplikasi](lib/demo.gif)
 
 **Deskripsi:** Demo interaktif aplikasi menampilkan seluruh fitur dari login hingga logout.
 
