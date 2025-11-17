@@ -1,10 +1,10 @@
-# 🎯 Aplikasi Login & Dashboard Flutter
+# Aplikasi Login & Dashboard Flutter
 
 **Tugas Praktikum 9 - Pemrograman Mobile**
 
 ---
 
-## 👤 Identitas Mahasiswa
+## Identitas Mahasiswa
 
 **Nama:** Fina Julianti  
 **NIM:** H1D023119  
@@ -17,58 +17,58 @@
 
 
 
-## 📸 Screenshot Aplikasi
+## Screenshot Aplikasi
 
-### 1️⃣ Demo Aplikasi
+### Demo Aplikasi
 ![Demo Aplikasi](screenshots/demotugas7.gif)
 
 **Deskripsi:** Demo interaktif aplikasi menampilkan seluruh fitur dari login hingga logout.
 
 ---
 
-### 2️⃣ Halaman Login (Empty State)
+### Halaman Login (Empty State)
 ![Login Empty](screenshots/login%20utama.png)
 
 **Deskripsi:** Halaman login dengan desain minimalist modern, menampilkan field username dan password.
 
 ---
 
-### 3️⃣ Halaman Login (Filled)
+### Halaman Login (Filled)
 ![Login Filled](screenshots/login%20field%20terisi.png)
 
 **Deskripsi:** Contoh pengisian form login dengan password yang di-hide. Terdapat tombol visibility untuk toggle show/hide password.
 
 ---
 
-### 4️⃣ Halaman Dashboard/Home
+### Halaman Dashboard/Home
 ![Home Page](screenshots/homepage.png)
 
 **Deskripsi:** Dashboard dengan greeting dinamis, informasi user, last login time, dan visit counter.
 
 ---
 
-### 5️⃣ Side Menu/Drawer
+### Side Menu/Drawer
 ![Side Menu](screenshots/sidebar.png)
 
 **Deskripsi:** Navigation drawer dengan avatar user, informasi profil, dan menu navigasi ke berbagai halaman.
 
 ---
 
-### 6️⃣ Halaman About
+### Halaman About
 ![About Page](screenshots/tentang.png)
 
 **Deskripsi:** Halaman about yang menampilkan informasi aplikasi dan identitas mahasiswa.
 
 ---
 
-### 7️⃣ Logout Confirmation
+### Logout Confirmation
 ![Logout Dialog](screenshots/pop%20up%20konfirmasi%20logout.png)
 
 **Deskripsi:** Dialog konfirmasi sebelum melakukan logout dari aplikasi.
 
 ---
 
-## 🏗️ Struktur Proyek
+## Struktur Proyek
 
 ```
 h1d023119_tugas7/
@@ -92,9 +92,9 @@ h1d023119_tugas7/
 
 ---
 
-## 🔍 Penjelasan Kode Per File
+## Penjelasan Kode Per File
 
-### 1️⃣ `main.dart` - Entry Point
+### `main.dart` - Entry Point
 
 ```dart
 import 'package:flutter/material.dart';
@@ -129,7 +129,7 @@ class MyApp extends StatelessWidget {
 
 ---
 
-### 2️⃣ `login_page.dart` - Sistem Autentikasi
+### `login_page.dart` - Sistem Autentikasi
 
 **Fitur Utama:**
 - Multi-user authentication dengan 4 akun demo
@@ -269,7 +269,7 @@ void _login() {
 
 ---
 
-### 3️⃣ `home_page.dart` - Dashboard Dinamis
+### `home_page.dart` - Dashboard Dinamis
 
 **Fitur Utama:**
 - Dynamic greeting berdasarkan waktu (pagi/siang/sore/malam)
@@ -414,19 +414,19 @@ void _logout() async {
 
 ---
 
-### 4️⃣ `about_page.dart` - Informasi Aplikasi
+### `about_page.dart` - Informasi Aplikasi
 
 Halaman about menampilkan informasi lengkap tentang aplikasi, identitas mahasiswa, daftar fitur, dan tech stack yang digunakan dengan desain modern menggunakan gradient backgrounds dan card-based layout.
 
 ---
 
-### 5️⃣ `sidemenu.dart` - Navigation Drawer
+###  `sidemenu.dart` - Navigation Drawer
 
 Navigation drawer dengan custom header yang menampilkan avatar user, nama lengkap, dan username. Menu items dengan icons dan subtitles untuk navigasi ke berbagai halaman.
 
 ---
 
-## 🔄 Alur Data & Navigasi
+## Alur Data & Navigasi
 
 ### Login Flow:
 ```
